@@ -12,10 +12,10 @@ if(!empty($_GET['codigo'])) {
 		header("Location: login.php");
 		exit;
 	}
-} else {
-	header("Location: login.php");
-	exit;
-}
+// } else {
+// 	header("Location: login.php");
+// 	exit;
+ }
 
 if(!empty($_POST['email'])) {
 	$email = addslashes($_POST['email']);
