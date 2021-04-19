@@ -52,7 +52,7 @@ if (isset($_SESSION['banco']) && empty($_SESSION['banco']) == false)  {
           <tr>
             <td><?php echo date('d/m/Y H:i', strtotime($item['data_operacao']));?></td>
             <td><?php if ($item['tipo'] =='0'):?> 
-            <span color="green"> R$ <?php echo $item['valor']?></span>
+            <span color="blue"> R$ <?php echo $item['valor']?></span>
             <?php else: ?>
               <span color="red"> -R$ <?php echo $item['valor']?></span>
               <?php endif;?>
