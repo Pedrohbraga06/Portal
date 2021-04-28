@@ -24,6 +24,8 @@
         }
       }
     }
+    arsort($carac);
+    
     $palavras = array_keys($carac);
     $contagens = array_values($carac);
 
@@ -36,7 +38,7 @@
 
       $h = ceil($n * count($tamanhos));
 
-      echo "<p style='font-size:".$tamanhos[$h-1]."px'>".$palavras[$x]."</p>";
+      echo "<p style='font-size:".$tamanhos[$h-1]."px'>".$palavras[$x]." (".$contagens[$x].")</p>";
 
     }
 
