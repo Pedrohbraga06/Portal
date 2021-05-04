@@ -20,4 +20,4 @@ if($frase && $find && $sub) {
  echo 'Frase : '.$frase;
  echo '<br/>';
  echo 'Nova frase: '.$frase_final;
-}
+} ?>
